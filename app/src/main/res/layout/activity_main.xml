@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chart"
+        android:layout_alignBaseline="@+id/camera"
+        android:layout_alignBottom="@+id/camera"
+        android:layout_alignStart="@+id/event"
+        android:background="@drawable/chart"/>
+
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="143dp"
+        android:id="@+id/camera"
+        android:layout_below="@+id/memo"
+        android:layout_alignStart="@+id/memo"
+        android:background="@drawable/camera"/>
+
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:id="@+id/memo"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/memo"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/event" />
+
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:id="@+id/event"
+        android:background="@drawable/event"
+        android:layout_alignBaseline="@+id/memo"
+        android:layout_alignBottom="@+id/memo"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
